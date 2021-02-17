@@ -119,7 +119,7 @@ SMOTE has the best geometric mean score with a 0.84 vs. 0.84 by the SMOTEENN mod
 
 *Top 15 Most Important Features*
 
-![](top_15_features_plot.png)
+![](top_15_features_plot.png)   
 ---
 ### Logistic Regression Model (SMOTE Oversampling)
 ---
