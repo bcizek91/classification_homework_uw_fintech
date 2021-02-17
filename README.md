@@ -118,6 +118,7 @@ SMOTE has the best geometric mean score with a 0.84 vs. 0.84 by the SMOTEENN mod
 
 
 *Top 15 Most Important Features*
+
 ![](top_15_features_plot.png)
 ---
 ### Logistic Regression Model (SMOTE Oversampling)
@@ -147,10 +148,13 @@ Overall, the EasyEsembleClassifer, a bag of booster learners, had a balanced acc
 ### *Which model had the best recall score?*
 ---
 EasyEsembleClassifer again bested SMOTE logistic regression with a total recall score of 0.94 vs. 0.87
+
+
 ### *Which model had the best geometric mean score?*
 ---
-EasyEsembleClassifer has the best geometric mean score with a 0.93 vs. 0.84 by the SMOTE logistic regression,
----
+EasyEsembleClassifer has the best geometric mean score with a 0.93 vs. 0.84 by the SMOTE logistic regression.
+
+
 ### *What are the top three features?*
-EasyEsembleClassifier does not have a feature_importances_ function, but the top 3 features for the BalancedRandomForestClassifier were *total_rec_perncp*, *total_pymnt_inv*, *total_pyment*. These features makes sense as they indicate whether a client pays their loan and what amount determines their level of risk.
 ---
+EasyEsembleClassifier does not have a feature_importances_ function, but the top 3 features for the BalancedRandomForestClassifier were *total_rec_perncp*, *total_pymnt_inv*, *total_pyment*. These features makes sense as they indicate whether a client pays their loan and what amount determines their level of risk.
