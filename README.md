@@ -117,7 +117,7 @@ SMOTE has the best geometric mean score with a 0.84 vs. 0.84 by the SMOTEENN mod
 | avg / total | 0.99 | 0.90 | 0.67 | 0.94 | 0.78 | 0.62 | 17205 |
 
 
-*Top 15 Most Important Features*
+*Top 15 Most Important Features:*
 
 ![](top_15_features_plot.png)   
 ---
